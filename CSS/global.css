@@ -1,0 +1,96 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 56px 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+a,
+a:hover,
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+nav>span>i {
+    cursor: pointer;
+}
+
+
+.card {
+    background-color: inherit;
+
+}
+
+.list-group-item {
+    background-color: inherit;
+    color: inherit;
+}
+
+.navbar-brand {
+    transform: translateY(-2px);
+    margin-right: 20px
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: firebrick;
+    border-color: firebrick;
+}
+
+.page-link {
+    color: firebrick;
+}
+
+thead>tr>th {
+    cursor: pointer;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: firebrick;
+}
+
+.nav-link {
+    color: inherit
+}
+
+/* button default
+---------------------------- */
+.btn-default {
+    color: #333;
+    background-color: #f8f9fa;
+    border-color: #ccc;
+}
+
+.btn-default:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+
+.btn-default:active,
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
