@@ -24,7 +24,7 @@ html {
 }
 
 .pimg1 {
-    background-image: url('../../Images/background/image1.jpg');
+    background-image: url('../Images/background/image1.jpg');
     min-height: 100%;
 }
 
